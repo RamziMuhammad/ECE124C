@@ -1,0 +1,515 @@
+body{
+ background-color: #FFF5d7;
+ font: 16px/1.5 Arial, Tahoma;
+ margin: 0px;
+ padding: 0px;
+}
+
+/* Global. */
+.Container{
+ margin: auto;
+ overflow: hidden;
+ width: 80%;
+}
+p{
+ direction: rtl;
+}
+header{
+ background: #2d545e;
+ border-bottom: #FFF5d7 2px solid;
+ color: #EEE;
+ min-height: 70px;
+ padding-top: 30px;
+ transition: all .4s ease-in-out;
+}
+/* Logo */
+Div #Logo{
+ display: flex;
+ float: left;
+}
+.Logo-Container{
+ height: 50px;
+ margin: 0 20px 0 0;
+ transition: all .35s ease-in-out;
+}
+.Logo-Container:hover{
+ transform: scale3d(1, 1, 3) rotateY(40deg);
+}
+.Hightlight{
+ color: #EC2029;
+}
+header h1{
+ color: #FFF5D7;
+ margin: 0;
+}
+
+/* Navigation */
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+.Icon{
+ margin-right: 5px;
+ height: 15px;
+}
+header a{
+ color: #FFF5D7;
+ font-size: 18px;
+ text-decoration: none;
+ transition: all .25s ease-in-out;
+}
+header a:hover{
+ color: #EC2029;
+ text-decoration: underline;
+}
+header li{
+ display: inline;
+ float: left;
+ padding: 0 20px;
+}
+header ul{
+ margin: 0;
+ padding: 0;
+}
+.Present a{
+ color: #EC2029;
+ font-weight: bold;
+}
+
+/* Showcase */
+#Showcase{
+ background: url("Images/Showcase.png") no-repeat 0 -400px;
+ color: #EEE;
+ min-height: 400px;
+ text-align: center;
+}
+#Showcase h1{
+ font-size: 55px;
+ margin-top: 100px;
+ margin-bottom: 10px;
+}
+#Showcase p{
+ font-size: 20px;
+}
+.BShadow{
+ border-radius: 50%;
+ box-shadow: 2px 2px 5px #FFA0A0;
+ height: 150px;
+ margin-top: 15px;
+ padding: 1px;
+ transition: all .3s ease-in-out; /* Animation */
+ }
+.BShadow:hover{
+ box-shadow: -2px -2px 5px #FFA0A0, 2px 2px 5px #2d545e;
+ cursor: pointer;
+}
+
+/* Newsletter */
+#Newsletter{
+ background: #2d545e;
+ border-bottom: #EC2029 1px solid;
+ border-top: #FFF5D7 1px solid;
+ color: #EEE;
+ padding: 15px;
+}
+#Newsletter h1{
+ float: left;
+}
+#Newsletter form{
+ float: right;
+ margin-top: 15px;
+}
+#Newsletter input[type="email"]{
+ background: transparent;
+ border: 0;
+ border-bottom: 2px solid #F9FCC4;
+ color: #EEE;
+ height: 25px;
+ outline: none;
+ padding: 4px;
+ width: 250px;
+}
+.Button_1{
+ background: rgba(236, 32, 41, 0.8);
+ border: none;
+ border-radius: 5px;
+ color: #F9FCC4;
+ cursor: pointer;
+ height: 36px;
+ outline: none;
+ padding: 0 20px;
+
+}
+.Button_1:hover{
+ background: rgba(236, 32, 41, 1);
+}
+/* For notes. */
+#Notes{
+ margin-top: 20px;
+}
+.Note{
+ float: left;
+ padding: 10px;
+ text-align: center;
+ width: 30%;
+}
+article#About{
+ float: left;
+ width: 55%;
+}
+aside#Opinion-Container{
+ float: right;
+ margin-top: 10px;
+ width: 40%;
+}
+aside#Opinion-Container .Opinion input, aside#Opinion-Container .Opinion textarea{
+ padding: 5px;
+ width: 90%;
+}
+.Dark{
+ background: #2d545e;
+ color: #EEE;
+ direction: ltr;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ padding: 15px;
+}
+
+/* For the contact form. */
+.Contact-Form{
+ background: rgb(45, 84, 94);
+ border-radius: 5px;
+ box-shadow: 0 0 10px;
+ display: flex;
+ max-width: 95%;
+ margin: 0 auto;
+ padding: 30px;
+}
+.Input-Fields{
+ display: flex;
+ flex-direction: column;
+ margin-right: 4%;
+}
+.Input-Fields, .Msg{
+ width: 48%;
+}
+.Input-Fields .Input, .Msg textarea{
+ background: transparent;
+ border: 0;
+ border-bottom: 2px solid #F9FCC4;
+ color: #F9FCC4;
+ margin: 10px 0;
+ outline: none;
+ padding: 10px 0;
+ width: 100%;
+}
+.Msg textarea{
+ height: 190px
+}
+::placeholder{
+ color: #EEE;
+}
+.Btn{
+ background: rgba(249, 252, 196, 0.8);
+ border: 0;
+ border-radius: 5px;
+ color: #2d545e;
+ cursor: pointer;
+ outline: none;
+ padding: 15px;
+ text-align: center;
+ width: 100%;
+}
+.Btn:hover{
+ background: #F9FCC4;
+}
+.Inf{
+ direction: ltr;
+}
+/* Players page */
+#Players{
+ background: url("Images/Players Background.png") no-repeat 0 -400px;
+ color: #EEE;
+ min-height: 260px;
+ text-align: center;
+}
+#Players h1{
+ font-size: 45px;
+ margin-bottom: 10px;
+ margin-top: 50px;
+}
+#Players p{
+ font-size: 20px;
+}
+
+/* Tournaments page.*/
+#Tournaments{
+ background: url("Images/Tournaments.jpg") no-repeat 0 -400px;
+ color: #EEE;
+ min-height: 260px;
+ text-align: center;
+}
+#Tournaments h1{
+ font-size: 45px;
+ margin-bottom: 10px;
+ margin-top: 50px;
+}
+#Tournaments p{
+ font-size: 20px;
+}
+.Tournaments{
+ height: 120px;
+}
+/* Footer */
+footer{
+ background-color: #EC2029;
+ color: #EEE;
+ margin-top: 20px;
+ padding: 20px;
+ text-align: center;
+}
+table{
+ border-collapse: collapse;
+ direction: rtl;
+ margin: auto;
+ width: 90%;
+}
+th, td {
+ border-bottom: 1px solid #DDD;
+ color: #E0E0E0;
+ padding: 8px;
+ text-align: center;
+}
+th{
+ background: #191919;
+}
+tr:nth-child(even) {
+ background-color: #3D3D3D;
+}
+tr:nth-child(odd) {
+ background-color: #545454;
+}
+tr:hover {
+ background-color: #925E1C;
+}
+.Title{
+ text-align: center;
+}
+.Gallery{
+ margin-top: 25px;
+}
+.Gallery img {
+ margin: 0 auto;
+ transition: all .3s ease-in-out;
+ width: 60%;
+}
+.Gallery img:hover{
+ opacity: 0.5;
+}
+.CafTable{
+ width: 50%;
+}
+.Red{
+ color: #F00;
+}
+.W{
+ border-bottom: 3px solid #080;
+}
+.D{
+ border-bottom: 3px solid #00F;
+}
+.L{
+ border-bottom: 3px solid #F00;
+}
+
+#Tables{
+ background: url("Images/Ultras.jpg") no-repeat 0 -400px;
+ color: #EEE;
+ border-bottom: 2px solid #EC2029;
+ border-top: 3px solid #2D545E;
+ min-height: 260px;
+ text-align: center;
+}
+#Tables h1{
+ font-size: 45px;
+ margin-bottom: 10px;
+ margin-top: 50px;
+}
+#Tables p{
+ font-size: 20px;
+}
+
+/* Registration Form. */
+.Registration{
+ background: rgba(0, 0, 0, 0.3);
+ margin: auto;
+ width: 80%;
+ padding: 20px 0 50px;
+}
+.Registration h2{
+ color: #3E8493;
+ font-size: 36px;
+ margin-bottom: 10px;
+ text-align: center;
+ width: 100%;
+}
+.Registration .Row100{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ margin: auto;
+ position: relative;
+ width: 90%;
+}
+.Registration .Row100 .Col{
+ margin: 30px 0 10px;
+ position: relative;
+ padding: 0 10px;
+ transition: all .5s ease-in-out;
+ width: 90%;
+}
+.Registration .Row100 .E-Mail{
+ margin: 30px 0 10px;
+ position: relative;
+ padding: 0 10px;
+ transition: all .5s ease-in-out;
+ width: 95%;
+
+}
+.Registration .Row100 .InputBox{
+ color: rgba(250, 250, 250, 0.7);
+ height: 40px;
+ position: relative;
+ width: 100%;
+}
+.Registration .Row100 .InputBox input{
+ background: transparent;
+ border: none;
+ box-shadow: none;
+ color: #EEE;
+ font-size: 16px;
+ padding: 0 10px;
+ outline: none;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ z-index: 1;
+}
+.Registration .Row100 .InputBox .RegText{
+ display: block;
+ font-size: 16px;
+ padding: 0 10px;
+ position: absolute;
+ left: 0;
+ line-height: 40px;
+ top: 0;
+ transition: all .5s ease-in-out;
+ pointer-events: none;
+}
+.Registration .Row100 .InputBox input:focus + .RegText,
+.Registration .Row100 .InputBox input:valid + .RegText{
+ color: #EC2029;
+ font-size: smaller;
+ font-style: oblique;
+ left: -10px;
+ top: -35px;
+}
+.Registration .Row100 .InputBox .Line{
+ background: #3E8493;
+ border-radius: 3px;
+ bottom: 0;
+ display: block;
+ height: 2px;
+ transition: all .5s ease-in-out;
+ position: absolute;
+ pointer-events: none;
+ width: 100%;
+
+}
+.Registration .Row100 .InputBox input:focus ~ .Line,
+.Registration .Row100 .InputBox input:valid ~ .Line{
+ height: 100%;
+}
+section#Gender{float: left;
+float: left;
+text-align: center;
+margin-top: 30px;
+width: 50%;
+}
+section#Gender label{
+color: #EEE;
+}
+section#Gender select, section#Birthday select, section#Birthday input[type="reset"], .Registration .Row100 input[type="submit"]{
+ background: rgba(62, 132, 147, 0.8);
+ border: none;
+ border-radius: 3px;
+ box-shadow: 0 5px 10px rgba(120, 120, 120, 0.2);
+ color: #EEE;
+ cursor: pointer;
+ font-size: 16px;
+ height: 30px;
+ margin: 20px auto;
+ outline: none;
+ padding: 5px;
+ width: 85px;
+}
+section#Gender select:hover, section#Birthday select:hover, section#Birthday input[type="reset"]:hover, .Registration .Row100 input[type="submit"]:hover{
+ background: rgba(62, 132, 147, 1);
+}
+#Birthday{
+ float: right;
+ margin-top: 30px;
+ text-align: center;
+ width: 50%;
+}
+section#Birthday label{
+ color: #EEE;
+ margin-right: 30px; 
+}
+#PgUp{
+ background: #EEE;
+ border: 1px solid #BBB;
+ border-radius: 50%;
+ bottom: 25px;
+ box-shadow: 2px 2px 5px #2D545E;
+ color: black;
+ display: none;
+ font-size: 18px;
+ outline: none;
+ Padding: 10px;
+ position: fixed;
+ right: 35px;
+ transition: all .3s ease-in-out;
+ z-index: 100;
+}
+#PgUp:hover{
+ box-shadow: -2px -2px 5px #2d545e, 2px 2px 5px #FFA0A0;
+ cursor: pointer;
+}
+/* Media Queries */
+@media(max-width: 768px){
+ header #Logo, header nav, header nav li, heade h1, div #Logo,  #Newsletter h1, #Newsletter form, #Notes .Note, article#About, aside#Opinion-Container{
+ float: none;
+ margin: auto;
+ text-align: center;
+ width: 100%;
+ }
+header{
+ padding-bottom:20px;
+}
+#Showcase h1{
+ margin-top:40px;
+}
+#Newsletter button, .Opinion button, #Gender, #Birthday{
+ display: block;
+ margin: auto;
+ width: 100%;
+}
+#Newsletter form input[type="email"], .Opinion input, .Opinion textarea{
+ margin-bottom:5px;
+ width:100%;
+}
+.Registration .Row100 .E-Mail,
+.Registration .Row100 .Col{
+ width: 90%;
+}
+}
